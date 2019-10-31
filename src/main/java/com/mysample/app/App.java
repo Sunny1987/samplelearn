@@ -55,6 +55,7 @@ public class App
     	//sort the list as set is unordered collection
     	Collections.sort(list);
     	System.out.println(list);
+    	list.forEach((n) -> System.out.println(n));
 		
 		
 	}
