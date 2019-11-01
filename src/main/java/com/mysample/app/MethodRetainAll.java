@@ -24,9 +24,14 @@ public class MethodRetainAll {
 		boxes.retainAll(bags);
 		System.out.println("boxes:" + boxes);
 		
+		ArrayList<String> bags_new = null;
+		System.out.println("bags_new:"+ bags_new);
+		//bags.retainAll(bags_new);
 		
+		//System.out.println("bags_new:"+ bags_new);
 		
-		
+		bags.retainAll(bags);
+		System.out.println("bags:" + bags);
 		
 	}
 
